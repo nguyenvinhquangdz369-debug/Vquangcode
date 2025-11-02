@@ -23,7 +23,7 @@ IRsend irsend;
 // ====== Ngưỡng ======
 float tempBodyThresholds[] = {35.0, 36.0, 37.0, 37.5, 38.0};
 int acTemps[] = {28, 27, 26, 25, 24}; // nhiệt độ điều hòa
-float envHotThreshold = 4.0; // chênh lệch nhiệt > 2°C → người hơi nóng
+float envHotThreshold = 4.0; // chênh lệch nhiệt > 4°C → người hơi nóng
 
 void setup() 
 {
